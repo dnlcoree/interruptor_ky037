@@ -2,7 +2,7 @@ const int sensorPin = 10;                 //pino do sensor
 const int rlyPin = 2;                     //pino do rele
 
 unsigned long lastTrigTime = 0;           //armazena o tempo do ultimo gatilho detectado 
-unsigned long trigTimeout = 2000;         //tempo maximo de 1 segundo para os dois gatilhos acontecerem
+unsigned long trigTimeout = 2000;         //tempo maximo de 2 segundos para os dois gatilhos acontecerem
 
 int trigCount = 0;                        //contador de gatilhos consecutivos
 bool rlyState = false;                    //estado atual do rele (desligado inicialmente)
