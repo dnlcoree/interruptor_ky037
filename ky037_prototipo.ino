@@ -17,7 +17,7 @@ void setup() {
   pinMode(sensorPin, INPUT);
   pinMode(rlyPin, OUTPUT);
 
-  //LED iniciando desligado
+  //rele iniciando desligado
 
   digitalWrite(rlyPin, LOW);
 
